@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500&family=Send+Flowers&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+nav p {
+    background-color: #E02C6D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 36px;
+
+}
+
+header {
+    background-color: #2D25A0;
+}
+
+.header-details {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.header-info h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+
+}
+
+.header-info p {
+    background-color: #E02C6D;
+    width: 168px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.header-img img {
+    width: 556.01px;
+    height: 438px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 70px;
+    width: 800px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    margin: 30px;
+    box-shadow: 5px 10px 5px rgba(228, 221, 221, 0.712);
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 483.87px;
+    height: 110px;
+}
+
+footer p {
+    font-size: 24px;
+}
